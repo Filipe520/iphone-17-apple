@@ -2,7 +2,7 @@ import { IoIosArrowRoundDown } from "react-icons/io";
 
 export default function Hero() {
   return (
-    <section className="relative h-screen overflow-hidden bg-black">
+    <section className="relative h-screen overflow-hidden bg-black max-w-[1400px] mx-auto">
       <div className="absolute top-18 left-0 bottom-0 right-0 z-0">
         <img
           src="/hero.jpg"
